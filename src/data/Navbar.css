@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin :0;
+}
+
+.navigation{
+    background-color: #F7F4F3;
+    display: flex;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.logo-icon{
+    width:184px;
+
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 15%;
+    align-items: center; 
+    font-family: 'Prompt';
+    margin-right: 30%;    
+}
+
+@media only screen and ( max-width:414px){
+
+    .logo-icon{
+        width:90px;
+    
+    }
+
+    .nav-links{
+        font-size: 0.6em;
+        margin-right: 52%; 
+    }
+}
