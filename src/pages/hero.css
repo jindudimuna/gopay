@@ -1,120 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
-
-
-.highlight{
-    color: #FD9B00;
-    
+.highlight {
+  color: #fd9b00;
 }
 
-
-.intro-text{
-    font-family: 'Space Grotesk';
-    font-size: 2em;
-    width: 70%;
+.intro-text {
+  font-family: "Space Grotesk";
+  font-size: 2em;
+  width: 70%;
 }
 
-.hero-text{
-    margin-left: 5%;
+.hero-text {
+  margin-left: 5%;
 }
 
-.sub-text{
-    font-family: 'Space Grotesk';
-    font-size: 1em;
-
+.sub-text {
+  font-family: "Space Grotesk";
+  font-size: 1em;
 }
 
-
-.btn{
-    margin-top: 5%;
- 
-    
+.btn {
+  margin-top: 5%;
 }
 
-.buttons{
-margin-right: 20px;
-display: inline-block;
-background-color: #11706C;
-border-radius: 10px;
-border: 0px;
-color: #eeeeee;
-text-align: center;
-font-size: 1em;
-padding: 20px;
-width: 200px;
--webkit-transition: all 0.5s;
--moz-transition: all 0.5s;
--o-transition: all 0.5s;
-transition: all 0.5s;
-cursor: pointer;
-/* margin: 5px; */
-
+.buttons {
+  margin-right: 20px;
+  display: inline-block;
+  background-color: #11706c;
+  border-radius: 10px;
+  border: 0px;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 1em;
+  padding: 20px;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  /* margin: 5px; */
 }
 
 .buttons:hover {
-    background-color: #FD9B00;
-    color: black;
+  background-color: #fd9b00;
+  color: black;
+}
+
+.users {
+  width: 35%;
+  border-radius: 5%;
+  margin-left: 10%;
+}
+.hero-images {
+  width: 90%;
+}
+
+.usersF {
+  width: 25%;
+  border-radius: 5%;
+  margin-left: 10%;
+}
+
+.hero {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.support-text {
+  font-family: "Space Grotesk";
+  font-size: 1.2em;
+  width: 70%;
+}
+
+.Partners {
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
+.icons {
+  width: 90px;
+}
+
+@media only screen and (max-width: 414px) {
+  .intro-text {
+    font-family: "Space Grotesk";
+    font-size: 1.5em;
+    width: 50%;
   }
 
-
-  .users{
-    width: 35%;
-    border-radius: 5%;
-    margin-left: 10%;
+  .sub-text {
+    font-family: "Space Grotesk";
+    font-size: 0.8em;
+    width: 70%;
   }
-.hero-images{
-    width: 90%;
-}
 
-.usersF{
-    width: 25%;
-    border-radius: 5%;
-    margin-left: 10%;
-}
+  .btn {
+    margin-top: 2%;
+  }
 
-.hero{
-    display: flex;
-    margin-top: 5%;
-    margin-left: 10%;
-
-}
-@media only screen and ( max-width:414px){
-    .intro-text{
-        font-family: 'Space Grotesk';
-        font-size: 1.5em;
-        width: 50%;
-    }
-
-    .sub-text{
-        font-family: 'Space Grotesk';
-        font-size: 0.8em;
-        width: 70%;
-    
-    }
-
-    .btn{
-        margin-top: 2%;
-     
-        
-    }
-    
-    .buttons{
+  .buttons {
     margin-right: 20px;
     display: inline-block;
-    background-color: #11706C;
+    background-color: #11706c;
     border-radius: 10px;
     border: 0px;
     color: #eeeeee;
     text-align: center;
     font-size: 0.8em;
-    padding: 20px;
-    width: 140px;
+    padding: 10px;
+    width: 120px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
     cursor: pointer;
     /* margin: 5px; */
-    
-    }
+  }
+
+  .users {
+    width: 80%;
+    border-radius: 5%;
+    margin-left: 10%;
+  }
+  .hero-images {
+    width: 90%;
+  }
+
+  .usersF {
+    width: 35%;
+    border-radius: 5%;
+    margin-left: 10%;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
+  .support-text {
+    font-family: "Space Grotesk";
+    font-size: 1.2em;
+    width: 70%;
+  }
+
+  .Partners {
+    margin-top: 20%;
+    margin-bottom: 10%;
+  }
+
+  .icons {
+    width: 70px;
+  }
 }
