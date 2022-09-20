@@ -16,7 +16,7 @@ function Hero({pic}){
     });
 
 return(
-    <>
+    <div className="body">
         <div className="hero">
             <div className="hero-text">
                 <h1 className="intro-text">
@@ -59,7 +59,7 @@ return(
                 </div>
                 {/* closing tag for the hero-section */}
             </div>
-    </>
+    </div>
 
 
 )
