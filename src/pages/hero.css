@@ -85,7 +85,7 @@
   width: 90px;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 450px) {
   .intro-text {
     font-family: "Space Grotesk";
     font-size: 1.5em;
