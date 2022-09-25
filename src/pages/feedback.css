@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+
+.profile-pics {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 3%;
+  height: 3%;
+}
+
+.quotes {
+  font-family: "Secular One", sans-serif;
+  font-size: 9em;
+}
+
+.quote1 {
+  color: #11706c;
+}
+
+.quote2 {
+  color: #fd9b00;
+}
+
+.exp {
+  font-family: "Space Grotesk";
+  font-size: 1.6em;
+  width: 31%;
+  margin-left: 2%;
+}
+
+.name {
+  font-family: "Asap", sans-serif;
+  font-size: 1.2em;
+}
+
+.job {
+  font-family: "Asap", sans-serif;
+  font-size: 1em;
+}
+
+.user-data {
+  display: flex;
+  margin-top: 6%;
+  margin-left: 2%;
+}
+
+.profile {
+  margin-left: 2%;
+}
+
+.box {
+  margin-left: 10%;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}

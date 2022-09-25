@@ -5,7 +5,7 @@ import Hero2 from '../assets/user2.JPG'
 import Hero3 from '../assets/user3.JPG'
 import Support from "../data/logos";
 import { logo } from "../data/logosdata";
-function Hero({pic}){
+function Hero(){
 
     const Icons = logo.map(Icons=>{
         return(

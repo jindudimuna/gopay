@@ -4,6 +4,7 @@ import NavBar from './data/Navbar';
 import Hero from './pages/hero';
 import About from './pages/about';
 import Uses from './pages/Uses';
+import Review from './data/Review';
 function App() {
   return (
 
@@ -12,6 +13,7 @@ function App() {
  <Hero />
  <About />
  <Uses />
+ <Review />
  </div>
 
 
