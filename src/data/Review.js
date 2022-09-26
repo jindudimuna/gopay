@@ -14,8 +14,12 @@ function Review(){
     return(
         <div>
 
-<div>
+<div className="review-title">
 <h1 className="review-header"> What People are saying</h1>
+
+</div>
+
+<div className="box">
 {experience}
 </div>
 

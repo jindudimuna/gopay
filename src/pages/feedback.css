@@ -3,18 +3,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
 
+* {
+  box-sizing: border-box;
+}
 .profile-pics {
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
-  width: 3%;
-  height: 3%;
+  width: 10%;
+  height: 10%;
 }
 
 .quotes {
   font-family: "Secular One", sans-serif;
   font-size: 9em;
+  margin: 0px;
 }
 
 .quote1 {
@@ -27,14 +31,19 @@
 
 .exp {
   font-family: "Space Grotesk";
-  font-size: 1.6em;
-  width: 31%;
-  margin-left: 2%;
+  font-size: 1.5em;
+  width: 80%;
+  margin-top: 0;
+}
+
+.exp-layer {
+  display: flex;
+  justify-content: center;
 }
 
 .name {
   font-family: "Asap", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .job {
@@ -44,7 +53,7 @@
 
 .user-data {
   display: flex;
-  margin-top: 6%;
+  margin-top: 4%;
   margin-left: 2%;
 }
 
@@ -52,10 +61,47 @@
   margin-left: 2%;
 }
 
-.box {
-  margin-left: 10%;
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 20px;
-  overflow-x: auto;
+.box-section {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 0.5em;
+  width: 30%;
+}
+@media only screen and (max-width: 450px) {
+  .quotes {
+    font-family: "Secular One", sans-serif;
+    font-size: 2em;
+  }
+
+  .exp {
+    font-family: "Space Grotesk";
+    font-size: 1em;
+    width: 100%;
+  }
+
+  .name {
+    font-family: "Asap", sans-serif;
+    font-size: 1em;
+  }
+
+  .profile-pics {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 30%;
+    height: 30%;
+  }
+
+  .job {
+    font-family: "Asap", sans-serif;
+    font-size: 0.6em;
+  }
+
+  .box-section {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 0.5em;
+    width: 90%;
+  }
 }
