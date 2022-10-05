@@ -9,7 +9,7 @@ function Feedback({quote1, quote2, exp, ppic, Name, job}){
       <h1 className="quotes"><span className="quote1">{quote1}</span><span className="quote2">{quote2}</span></h1>
       
       <div className="exp-layer">
-      <h1 className="exp">{exp}</h1>
+      <p className="exp">{exp}</p>
 {/* closing tag for exp-layer */}
       </div>
 
@@ -17,8 +17,8 @@ function Feedback({quote1, quote2, exp, ppic, Name, job}){
             <img src= {ppic} alt="avatars" className="profile-pics" />
 
             <div className="profile">
-                <h1 className="name">{Name}</h1>
-                <h1 className="job">{job}</h1>
+                <p className="name">{Name}</p>
+                <p className="job">{job}</p>
             </div>
             {/* closing tag for user data */}
         </div>

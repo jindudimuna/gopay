@@ -9,8 +9,8 @@ function AboutBox({heading, avatar, info}){
             <img src={`../images/${avatar}`} alt="icons" className="tile-icons"/>
 
             <div className="tile text">
-            <h1 className="info-text">{heading}</h1>
-            <h1 className="info-text-2">{info}</h1>
+            <p className="info-text">{heading}</p>
+            <p className="info-text-2">{info}</p>
             </div>
      
         </div>
