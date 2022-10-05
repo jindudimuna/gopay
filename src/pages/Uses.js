@@ -18,10 +18,10 @@ function Uses(){
                     Saving has never been easier
                 </h1>
 
-                <h1 className="sub-text-u">
+                <p className="sub-text-u">
                     With <span className="Highlight">Go</span><span className="Highlight2">Pay</span> you can set out
                     specific amounts for savings at the end of the month.
-                </h1>
+                </p>
                 {/* closing tag for info */}
             </div>
 {/* closing tag for top level */}
@@ -33,10 +33,10 @@ function Uses(){
                         Actualise your dreams to study abroad
                     </h1>
 
-                    <h1 className="sub-text-u">
+                    <p className="sub-text-u">
                         Keep track of how much you actually rake in.
                         Mismanagement? not under our watch.
-                    </h1>
+                    </p>
                     {/* closing tag for second-info */}
                 </div>
 
@@ -54,10 +54,10 @@ function Uses(){
                         Get loans at a discounted rate with us
                     </h1>
 
-                    <h1 className="sub-text-u">
+                    <p className="sub-text-u">
                         With <span className="Highlight">Go</span><span className="Highlight2">Pay</span> you get one 
                         off loans with minimal interest as part of our benefits
-                    </h1>
+                    </p>
                 </div>
 
                 {/* closing tag for third-level */}
@@ -70,10 +70,10 @@ function Uses(){
                             Make those Vacation plans a reality
                     </h1>
 
-                    <h1 className="sub-text-u">
+                    <p className="sub-text-u">
                         Turn that lifelong getaway plan to fruitionwithout breaking a sweat
 
-                    </h1>
+                    </p>
                     {/* closing tag for fourth info */}
                 </div>
 
