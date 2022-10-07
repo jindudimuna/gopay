@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.Faq-header {
+  color: #11706c;
+  font-family: "Space Grotesk";
+  font-size: 2em;
+}
+
+.faq-section {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 450px) {
+  .Faq-header {
+    color: #11706c;
+    font-family: "Space Grotesk";
+    font-size: 1em;
+  }
+}

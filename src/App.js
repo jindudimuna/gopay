@@ -5,6 +5,7 @@ import Hero from './pages/hero';
 import About from './pages/about';
 import Uses from './pages/Uses';
 import Review from './data/Review';
+import Faq from './pages/Faq';
 function App() {
   return (
 
@@ -14,6 +15,7 @@ function App() {
  <About />
  <Uses />
  <Review />
+ <Faq />
  </div>
 
 

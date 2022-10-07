@@ -16,8 +16,9 @@ function Review(){
 
 <div className="review-title">
 <h1 className="review-header"> What People are saying</h1>
-
+{/* closing rag for review-title */}
 </div>
+
 
 <div className="box">
 {experience}
