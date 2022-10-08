@@ -14,10 +14,47 @@
   justify-content: center;
 }
 
+.faq-section-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.response-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.extra {
+  width: 40%;
+}
+
+.hidden {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 @media only screen and (max-width: 450px) {
   .Faq-header {
     color: #11706c;
     font-family: "Space Grotesk";
     font-size: 1em;
+  }
+  .response-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .extra {
+    width: 90%;
+  }
+
+  .hidden {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

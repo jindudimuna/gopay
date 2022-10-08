@@ -2,7 +2,7 @@ export const FAQuestions =[
 
     {
         id: 1,
-        question: "Who can amke use of Gopay?",
+        question: "Who can make use of Gopay?",
         answer:"Just about anyone from students to business owners to small scale organizations. It is a diverse platform thats very much user oriented.",
 
     },
@@ -25,18 +25,7 @@ export const FAQuestions =[
         answer: "All we require is your relevant information and details alongside a vaild means of identification.",
     },
 
-    {
-        id: 5,
-        question: "Are Virtual cards available?",
-        answer: "Yes we have virtual cards which work for payments in USD, EUR, GDP",
-
-    },
-
-    {
-        id: 6,
-        question: "How much can I start with?",
-        answer: "We don't have a minimum opening balance, we're ready when you are!",
-    }
+  
 
 
   
