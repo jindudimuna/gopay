@@ -6,6 +6,7 @@ import About from './pages/about';
 import Uses from './pages/Uses';
 import Review from './data/Review';
 import Faq from './pages/Faq';
+import Hero2 from './pages/Hero2';
 function App() {
   return (
 
@@ -16,6 +17,7 @@ function App() {
  <Uses />
  <Review />
  <Faq />
+ <Hero2 />
  </div>
 
 

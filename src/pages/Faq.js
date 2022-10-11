@@ -31,7 +31,7 @@ function Faq(){
             {/* closing tag for response-section */}
             </div>
 
-
+{/* work on conditionally rendering this section later */}
 <div className="hidden">
 
 
